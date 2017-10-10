@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body meta="assosiate_practice">
+        <form action="destination" method="post" entype="maltipart/form-data">
+          <fieldset>
+              <legend>Your face</legend>
+              <label for="image">Your image :</label>
+              <input type="file" name="image" id="image" required><br>
+              <label for="preview">image preview :</label>
+          </fieldset>
+          <br>
+          <fieldset>
+              <legend>Your general Details</legend>
+              <label for="name">Your full name :</label>
+              <input type="text" id="name" name="name" placeholder="Your name here" required><br>
+              <label for="gender">Gender :</label>
+              <input type="checkbox" id= "gender" name="gender">
+              Male
+              <input type="checkbox" id="gender" name="gender">
+              Female
+              <br>
+              <label for="age">age:</label>
+              <input type="number" min="16" max="30" value="18" id="age" name="age"><br>
+              Your height :
+              130<input type="range" min="130" max="200" value="150">200<br>
+              Your waight :
+              40<input type="range" min="40" max="100" value="60">60<br>
+              </legend>              
+          </fieldset>
+        </form>
+    </body>
+</html>
